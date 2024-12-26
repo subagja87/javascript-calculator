@@ -87,7 +87,7 @@ function App() {
         }
 
         // Limit the number of digits on the display
-        const maxDigits = 20;
+        const maxDigits = 18;
         if (displayText.textContent.length > maxDigits) {
             displayText.textContent = displayText.textContent.slice(0, maxDigits);
         }
